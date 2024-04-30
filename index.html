@@ -3,70 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./assets/assets/css/style.css">
-    <title>Portfolio of Marie</title>
+    <title>Portfolio of Marie DeVoll</title>
+    <link rel="stylesheet" href="./assets/assets/css/style.css">
+    <!-- fonts from google -->
+    <!-- quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="container-fluid body_section">
     <header>
-        <h1>Portfolio of Marie DeVoll</h1>
-        <nav>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#family">My family</a></li>
-            <li><a href="#work">My Projects</a></li>
-            <li><a href="#contact">Contact me</a></li>
+        <nav class="nav bar navbar-expand-lg navbar-light">
+            <a class="navbar-brand brand-name" href="#">Marie DeVoll</a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+
+            <div class="collaspe navbar-collaspe" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link headerachor" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link headerachor" href="school-work.html">Education & Employment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link headerachor" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link headerachor" href="project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link headerachor" href="contact.html">Contact me</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-<main>    
-    <section>
-       <div>
-            <h2 id="about">About me</h2>
-            <img src="assets/assets/images/DSC06803.JPG" alt="graduation">
-            <p class="snail">I am 24 years old and I live in Philadelphia. I graduated from The George Washington University in May 2022.
-                I live an active lifestyle. I have completed 3 half marathons and I work at a yoga studio, enjoying the discounted membership.
-                For fun, I enjoy reading and hanging out with my friends.
-            </p>
+
+    <section id="Home">
+        <div class="row column1">
+            <div class="col-lg-6 section-1">
+                <h1 class="Hello">Hello, my name is Marie <span class="wave">👋</span></h1>
+                <p>I am learning to become a full stack web developer with a passion in back-end data analysis</p>
+            </div>
         </div>
     </section>
 
-    <section>
-        <div>
-             <h2 id="family">My Family</h2>
-             <p class="snail">I have one brother named Teddy and he is 21 years old. He also lives in Philadelphia and attends Drexel University.
-                My parents live in Wilmington, Delaware with our dog, Shadow.
-             </p>
-             <img src="assets/assets/images/66251733056__E2B84731-EE08-46EA-B1EA-A800453CD32F.jpeg" alt="shadow">
-         </div>
-     </section>
-   
-    <section>
-        <h2 id="work">My Projects</h2>
-        <div>
-            <a href="https://mariedevoll.github.io/module-4-challenge/">
-                <div>
-                    <h3>Module 4 Challenge - Building a blog</h3>
-                    <span>In this project, I built 2 pages from scratch for a user to insert blog posts. After submission, there is a second page where users can read their posts and other posts. Users also have the option of viewing the page in a dark mode or a light mode with a simple click on the sun/moon in the top right corner.</span>
-                </div>
-            </a>
-            <a href="https://mariedevoll.github.io/module-6-challenge/">
-                <div>
-                    <h3>Module 6 Challenge - Weather Dashboard</h3>
-                    <span>In this project, I built a weather dashboard with the use of a server-side API. Users are able to search for any city and the 5 day forecase will appear along as the current weather data.</span>
-                </div>
-            </a>
-            <a href="https://lockedjce.github.io/Group-Trivia-Website/">
-                <div>
-                    <h3>Group Project</h3>
-                    <span>In this project, my team and I created a trivia game using 2 APIs: a trivia API and a random dog image API. Everytime the user answers a question, a random image of a dog pops up on the page! We also created a modal that can be executed through the settings button in the top right corner.</span>
-                </div>
-            </a>
-    </section>
-   
-    <section>
-        <h2 id="contact">Contact me</h2>
-        <div>
-            <p class="email">marie.devoll@gmail.com</p>
+    <section id="whatICanDo">
+        <h1>What I hope to do</h1>
+        <div class="row feature-1">
+            <div class="col-lg-6 col-md-6 feature-first-image">
+                <img class="feature-shadow-image" src="assets/assets/images/shadow.jpeg" alt="">
+            </div>
         </div>
     </section>
-</main>
+
+
 </body>
 </html>
