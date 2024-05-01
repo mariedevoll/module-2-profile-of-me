@@ -28,9 +28,46 @@ a {
 }
 
 .headerachor:hover {
-    background-color: pink;
+    background-color: #f1c7eb;
 }
+/* projects */
+.Section1{
+    padding: 5% 0 3%;
+  }
 
+  .project-heading{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+  }
+  .P-heading{
+    padding-bottom: 10px;
+    font-size : 40px;
+  }
+
+  .p-text{
+    font-size: 18px;
+    color: black;
+  }
+/* svg box */
+  .Project-box{
+    color:black;
+    text-decoration: none;
+  }
+
+  .col-sm-6{
+    padding-bottom: 20px;
+  }
+
+  .box {
+    background-color: #f1c7eb;
+    border-color: #ecbde6;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.356);
+  }
+  .boxx:hover{
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.999);
+  }
 
 footer {
     padding-top: 2%;

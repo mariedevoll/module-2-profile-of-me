@@ -28,7 +28,21 @@ a {
 }
 
 .headerachor:hover {
-    background-color: pink;
+    background-color: #f1c7eb;
+}
+.skill-box {
+    width: 30%; 
+    margin: 1%;
+    background-color: #f1c7eb;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left; /* boxes are placed side by side */
+}
+/* Clear floats to start a new row */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
