@@ -31,6 +31,28 @@ a {
     background-color: #f1c7eb;
 }
 
+#contact{
+    padding: 20px 20px 10px;
+}
+
+
+.first-section{
+    text-align: center;
+}
+
+.gradphoto{
+  border-radius: 100%;
+  width: 340px;
+  height: 460px;
+  border: 10px solid;
+  border-color: #f1c7eb;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.897);
+}
+
+.context{
+  text-align: center;
+  padding-top: 20px;
+}
 
 footer {
     padding-top: 2%;
