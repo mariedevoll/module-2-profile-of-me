@@ -20,14 +20,27 @@ a {
     font-weight: bond;
     color: black;
 }
+.headerachor {
+    color: black;
+    margin: 0 7px 0 7px;
+    font-size: 25px;
+}
 
+.headerachor:hover {
+    background-color: pink;
+}
 .gwu-logo {
     height: 100px;
 }
 .wfs-logo {
     height: 80px;
 }
-
+.anthro-logo {
+    height: 60px;
+}
+.container {
+    text-align: center;
+}
 
 
 footer {

@@ -34,7 +34,6 @@ a {
 }
 /*section 1: hello*/
 .column1 {
-    background-image: linear-gradient(pink, white);
     padding: 8px 16px;
 }
 

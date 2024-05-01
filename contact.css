@@ -21,6 +21,15 @@ a {
     font-weight: bond;
     color: black;
 } 
+.headerachor {
+    color: black;
+    margin: 0 7px 0 7px;
+    font-size: 25px;
+}
+
+.headerachor:hover {
+    background-color: pink;
+}
 
 
 footer {
