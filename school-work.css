@@ -1,6 +1,7 @@
 body {
     font-family: 'quicksand', quicksand;
     margin: 0;
+    background-color: #f1e4c7;
 }
 .body_section{
     padding: 3% 5% 1%;
@@ -38,8 +39,14 @@ a {
 .anthro-logo {
     height: 60px;
 }
+.ucb-logo {
+    height: 90px;
+}
 .container {
     text-align: center;
+}
+.description{
+    font-size: 17px;
 }
 
 
